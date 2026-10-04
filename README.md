@@ -26,7 +26,9 @@ docker compose up -d          # PostgreSQL on localhost:5432
 npm install
 npm run db:deploy             # applies the migration (tables + CHECK constraints)
 npm run db:seed               # demo data
-npm run dev                   # http://localhost:3000
+npm run build                 # for optimized production build
+npm start                     # localhost:3000
+
 ```
 
 ### Environment variables (`.env.example`)
