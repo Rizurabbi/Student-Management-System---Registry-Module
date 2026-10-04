@@ -1,6 +1,6 @@
 /* Demo data. Run with: npm run db:seed  (safe to re-run, it wipes and reloads everything)
  *
- * Every student below exists to show ONE edge case, so reviewers see the decisions quickly.
+ * Every student below exists to show ONE edge case.
  * See the "Demo guide" table in README.md. */
 import { PrismaClient } from "@prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
