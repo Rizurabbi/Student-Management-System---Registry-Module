@@ -19,7 +19,8 @@ A focused **Student Management System, Registry module**, built for the PEN Glob
 Prerequisites: Node 20.12 or newer, Docker (or installed PostgreSQL 14+).
 
 ```bash
-git clone <this repo> && cd sms-registry
+git clone https://github.com/Rizurabbi/Student-Management-System---Registry-Module.git
+cd Student-Management-System---Registry-Module
 cp .env.example .env          # defaults match docker-compose.yml
 docker compose up -d          # PostgreSQL on localhost:5432
 npm install
